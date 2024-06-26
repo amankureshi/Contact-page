@@ -1,0 +1,38 @@
+/* CSS */
+.primary_btn {
+    background: #D367CD;
+    border: 1px solid #E2E8F0;
+    padding: 18px 10px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    color: #fff;
+    font-family: Inter, sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    min-width: 220px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
+.outline_btn {
+    border: 2px solid #101010;
+    padding: 18px 10px;
+    color: #101010;
+    border-radius: 5px;
+    background: #fff;
+    font-size: 1rem;
+    gap: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-family: Inter, sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
