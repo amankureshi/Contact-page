@@ -5,10 +5,10 @@ const ContactHeader = () => {
     <div className={` container ${styles.contact_section}`}>
       <h1>Contact Us</h1>
       <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi, unde.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. At quisquam
-        magni, a sapiente vitae voluptatibus laboriosam harum tempora sit itaque
-        nam maxime, id vel dolorum autem. Autem suscipit deserunt illo?
+        We would love to hear from you! Whether you have questions, need
+        support, or just want to learn more about our services, feel free to
+        reach out. Our team is here to assist you and ensure you have the best
+        experience possible.
       </p>
     </div>
   );

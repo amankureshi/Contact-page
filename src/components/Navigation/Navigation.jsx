@@ -16,6 +16,9 @@ const Navigation = () => {
         <li>Home</li>
         <li>About</li>
         <li>Contact</li>
+        <div className="bar">
+          <i className="fa-solid fa-bars-staggered"></i>
+        </div>
       </ul>
     </nav>
   );

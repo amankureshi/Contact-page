@@ -31,7 +31,12 @@ const ContactForm = () => {
           </div>
           <div className={styles.form_container}>
             <label htmlFor="text">Text</label>
-            <textarea name="text" rows={8} />
+            <textarea
+              name="text"
+              rows={9}
+              cols={10}
+              style={{ resize: "none" }}
+            />
           </div>
           <div style={{ display: "flex", justifyContent: "end" }}>
             <Buttons text="Submit" />

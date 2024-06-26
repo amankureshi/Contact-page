@@ -19,6 +19,11 @@
     font-size: 1.1rem;
 }
 
+.navigation i {
+    font-size: 1.5rem;
+    display: none;
+}
+
 .navigation ul li:hover {
     background-color: #D268CC;
     color: #fff;
@@ -27,4 +32,17 @@
 
 .navigation .logo img {
     border: 2px solid red;
+}
+
+
+@media (max-width:786px) {
+    .navigation ul li {
+        display: none;
+    }
+
+    .navigation i {
+        font-size: 1.5rem;
+        display: block;
+        margin-right: 1rem;
+    }
 }
