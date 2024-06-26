@@ -16,7 +16,8 @@
 .navigation ul li {
     padding: 8px 10px;
     border-radius: 5px;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
+    font-weight: 500;
 }
 
 .navigation i {
