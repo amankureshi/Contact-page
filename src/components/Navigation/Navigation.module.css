@@ -7,16 +7,15 @@
 
 .navigation ul {
     display: flex;
-    gap: 2rem;
+    gap: 1rem;
     list-style: none;
     cursor: pointer;
-    font-weight: 500;
 }
 
 .navigation ul li {
     padding: 8px 10px;
     border-radius: 5px;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 500;
 }
 
@@ -31,8 +30,12 @@
     transition: all 0.3s ease-in-out;
 }
 
-.navigation .logo img {
-    border: 2px solid red;
+.navigation .logo {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
 }
 
 

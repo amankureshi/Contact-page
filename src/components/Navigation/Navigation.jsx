@@ -5,12 +5,13 @@ const Navigation = () => {
   console.log(Navigation);
   return (
     <nav className={`${styles.navigation} container`}>
-      <div className="logo">
+      <div className={styles.logo}>
         <img
-          src="https://i.postimg.cc/bwXvnGzx/White-and-Purple-Gaming-Avatar-Logo-1.png"
+          src="https://img.icons8.com/?size=200&id=yPt7YdTX5THi&format=png&color=3c3f6c"
           alt="logo"
           width={50}
-        />
+        />{" "}
+        <h2>Contact page</h2>
       </div>
       <ul>
         <li>Home</li>
