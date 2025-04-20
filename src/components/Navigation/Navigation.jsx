@@ -9,7 +9,7 @@ const Navigation = () => {
         <img
           src="https://i.postimg.cc/bwXvnGzx/White-and-Purple-Gaming-Avatar-Logo-1.png"
           alt="logo"
-          width={100}
+          width={50}
         />
       </div>
       <ul>

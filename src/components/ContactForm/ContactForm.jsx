@@ -16,8 +16,8 @@ const ContactForm = () => {
     setEmail(event.target[1].value);
     setText(event.target[2].value);
 
-    email = event.target[1].value;
-    text = event.target[2].value;
+    // email = event.target[1].value;
+    // text = event.target[2].value;
 
     console.log("name", event.target[0].value);
     console.log("email", event.target[1].value);
@@ -64,7 +64,7 @@ const ContactForm = () => {
       </div>
       <div className={styles.contact_Image}>
         <img
-          src="https://i.postimg.cc/L9qCK8SY/Service-24-7-amico.png"
+          src="https://img.freepik.com/free-vector/customer-support-illustration_23-2148885963.jpg?t=st=1745149925~exp=1745153525~hmac=c8267a69f011ca0b3c7942fe57930c4cacf58e2783875ed8bef077697882cacb&w=900"
           alt=""
         />
       </div>
