@@ -47,6 +47,10 @@
     margin-left: 5rem;
 }
 
+.form_container textarea {
+    padding: 0.9rem;
+}
+
 @media (max-width:786px) {
     .top_btn {
         display: flex;
