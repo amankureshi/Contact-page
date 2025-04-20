@@ -5,7 +5,7 @@ import { IoMdCall } from "react-icons/io";
 import { IoMdMail } from "react-icons/io";
 import { useState } from "react";
 const ContactForm = () => {
-  const [name, setName] = useState("Aman");
+  const [name, setName] = useState("YourName");
   const [email, setEmail] = useState("Email");
   const [text, setText] = useState("text");
 
